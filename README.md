@@ -10,7 +10,7 @@
 # Credits
 **Contributers:**
 - [TX_Jerry](https://github.com/TXWD1234)`
-- [\<Name\>](https://github.com/<github-username>)
+- [Coolerzanu](https://github.com/coolerzanu)
 - [\<Name\>](https://github.com/<github-username>)
 
 # Project Documentation
