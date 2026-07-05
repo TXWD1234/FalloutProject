@@ -5,6 +5,207 @@
 	(uuid "5d24c42e-ea6a-418f-a288-e53a0e2e8e34")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Lamp"
 			(pin_numbers
 				(hide yes)
@@ -516,6 +717,346 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Transistors:NPN,S9014"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 4.8514 0.834 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "S9014"
+				(at 4.8514 -1.2122 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312291746_hongjiacheng-S9014_C20069130.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "45V 200mW 200@1.0mA,5.0V 100mA NPN SOT-23 Bipolar (BJT) ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C20069130"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "120152"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.014USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Triode/MOS Tube/Transistor,Bipolar Transistors - BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "S9014"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Q_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NPN,S9014_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN,S9014_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,6 +1867,12 @@
 		)
 	)
 	(junction
+		(at 67.31 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c2c7ad-32f9-4497-897f-36cfbbec2b0c")
+	)
+	(junction
 		(at 88.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1337,6 +1884,18 @@
 		(color 0 0 0 0)
 		(uuid "2bb4decf-d90e-4078-9338-94ea9a996c33")
 	)
+	(junction
+		(at 67.31 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c35d969-ae85-4186-bd7d-af837ab466e9")
+	)
+	(junction
+		(at 67.31 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a06766dd-fe73-4e6a-a2a2-d61ae3fec847")
+	)
 	(wire
 		(pts
 			(xy 88.9 86.36) (xy 96.52 86.36)
@@ -1346,6 +1905,16 @@
 			(type default)
 		)
 		(uuid "0b481e7c-3ea4-46f3-9af6-63cc4c32a7d0")
+	)
+	(wire
+		(pts
+			(xy 86.36 115.57) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19190756-f914-4bdf-87a1-191bcf14b9d9")
 	)
 	(wire
 		(pts
@@ -1379,6 +1948,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 135.89) (xy 67.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8737eb-5f6f-4aa1-9354-2209dc2b9839")
+	)
+	(wire
+		(pts
 			(xy 72.39 58.42) (xy 71.12 58.42)
 		)
 		(stroke
@@ -1409,6 +1988,36 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 135.89) (xy 67.31 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928342d7-c407-464f-a918-b37837aca288")
+	)
+	(wire
+		(pts
+			(xy 78.74 123.19) (xy 67.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23b14dc-ff1a-4751-83f6-0a9e0619073e")
+	)
+	(wire
+		(pts
+			(xy 67.31 119.38) (xy 67.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36dc074-6541-4ffb-83e7-370ea896448a")
+	)
+	(wire
+		(pts
 			(xy 82.55 58.42) (xy 72.39 58.42)
 		)
 		(stroke
@@ -1419,6 +2028,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 111.76) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb471c71-c055-4d91-a11a-c52a845a2f21")
+	)
+	(wire
+		(pts
+			(xy 67.31 106.68) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1f1c6b-0a46-45f3-aba0-eacd98203ce4")
+	)
+	(wire
+		(pts
 			(xy 58.42 58.42) (xy 58.42 60.96)
 		)
 		(stroke
@@ -1426,6 +2055,16 @@
 			(type default)
 		)
 		(uuid "c4d4fa2e-1acd-43ee-a43f-c24df5a70587")
+	)
+	(wire
+		(pts
+			(xy 67.31 134.62) (xy 67.31 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4942fe-ddc7-45d3-8716-0e9cf5a030e5")
 	)
 	(wire
 		(pts
@@ -1446,6 +2085,46 @@
 			(type default)
 		)
 		(uuid "e5177502-c129-428a-b7a7-30e92d9186c3")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fd5383-9a2d-4280-835d-958a63117144")
+	)
+	(wire
+		(pts
+			(xy 86.36 128.27) (xy 86.36 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7200d1b-463b-4817-aac8-1470998cf796")
+	)
+	(wire
+		(pts
+			(xy 67.31 123.19) (xy 67.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7e8b87-89ae-450f-abbc-44e6f7a5addd")
+	)
+	(wire
+		(pts
+			(xy 67.31 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda7f23e-541b-409c-aaa6-7cb248cb09cb")
 	)
 	(label "INPUT"
 		(at 55.88 50.8 180)
@@ -1557,6 +2236,12 @@
 			(uuid "5438f44a-4f9f-46a9-bc04-0acf0a259240")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "#PWR010")
@@ -1576,7 +2261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fc71c4d-0fed-4a87-9917-aec1cdfb0e10")
-		(property "Reference" "Q12"
+		(property "Reference" "Q21"
 			(at 73.152 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,6 +2326,12 @@
 			(uuid "407827c8-e085-4b5b-b268-bdb3d85df002")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "Q21")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "Q12")
@@ -1661,7 +2352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2143f995-083b-4fa9-ad99-ade6ee0347f0")
-		(property "Reference" "LA1"
+		(property "Reference" "LA3"
 			(at 101.6 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,9 +2412,252 @@
 			(uuid "fd5a4ebb-7eee-4b0b-bba8-8dcc18ba063d")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "LA3")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "LA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26865edf-0962-47d7-8183-196073d394ef")
+		(property "Reference" "#PWR014"
+			(at 67.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 67.31 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df13aaee-b331-4374-8aaf-215b872b4bd0")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Photo_NPN")
+		(at 64.77 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35c82523-ff86-4f2d-9202-39fa83985fe0")
+		(property "Reference" "Q23"
+			(at 60.452 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT928-6C-F"
+			(at 60.452 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN phototransistor, collector/emitter"
+			(at 64.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ae74934-a282-4590-89a8-83f0ef2e291a")
+		)
+		(pin "2"
+			(uuid "0e660c5f-9d37-4f14-8a98-9529a1fe7a24")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "Q23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b593b00-70c8-4b0c-a836-3b45afc42f0e")
+		(property "Reference" "#PWR015"
+			(at 67.31 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d7f71bf-2729-4e1e-8695-6d4de86bd2fd")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1741,7 +2675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ef7844c-1352-423e-8467-6e56bcdbe41c")
-		(property "Reference" "Q4"
+		(property "Reference" "Q22"
 			(at 78.74 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,6 +2763,12 @@
 			(uuid "044af24f-9ea5-45ee-acb4-cc597cbbfb2d")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "Q22")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "Q4")
@@ -1849,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd5998a-630b-4049-8170-5244e2b18b5d")
-		(property "Reference" "R9"
+		(property "Reference" "R21"
 			(at 91.44 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,6 +2851,12 @@
 			(uuid "725a364b-e784-4007-8668-c7f9b3dd311b")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "R9")
@@ -1990,9 +2936,303 @@
 			(uuid "2abaea06-211f-4b79-8006-b14bfb4e6235")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "673c99e5-5214-43b2-ae21-5b7c51dffe8d")
+		(property "Reference" "D2"
+			(at 90.17 112.0774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 90.17 114.6174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "041f6730-6c49-4011-ae78-0150eb5f416b")
+		)
+		(pin "2"
+			(uuid "488af08a-31e8-4cdd-92a7-387b6f4327d2")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:NPN,S9014")
+		(at 83.82 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76377999-3db6-4cdb-b518-e20b2506bebd")
+		(property "Reference" "Q24"
+			(at 88.9 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S9014"
+			(at 88.9 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at 82.042 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312291746_hongjiacheng-S9014_C20069130.pdf"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "45V 200mW 200@1.0mA,5.0V 100mA NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20069130"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "120152"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.014USD"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Triode/MOS Tube/Transistor,Bipolar Transistors - BJT"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "S9014"
+			(at 83.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08eb60eb-9e9f-4ce9-bf3e-0561372f1cf5")
+		)
+		(pin "1"
+			(uuid "ee49eb6e-421e-416a-9477-1d60a015a59f")
+		)
+		(pin "3"
+			(uuid "502bfe0e-ef29-4ad2-8950-41b25427c8dc")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -2009,7 +3249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "789f04a7-21f7-4b7a-9df9-c7de2b5867e0")
-		(property "Reference" "R41"
+		(property "Reference" "R18"
 			(at 57.785 53.9749 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2071,6 +3311,12 @@
 			(uuid "50216efd-ee3a-4fa6-b1bd-ae3f1f25f1d9")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "R41")
@@ -2150,6 +3396,12 @@
 			(uuid "fe644370-79cf-4779-b8b2-e43a882bfea7")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "#PWR09")
@@ -2229,6 +3481,12 @@
 			(uuid "af8c2911-f3ee-4522-9b32-3fa234a07bcd")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "#PWR07")
@@ -2248,7 +3506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a01a9096-fed1-4a70-ae15-13ee8ea915a8")
-		(property "Reference" "R43"
+		(property "Reference" "R20"
 			(at 74.422 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2310,9 +3568,95 @@
 			(uuid "76cbd5d3-20d2-4f07-aad8-9c3aa532cb45")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b578a085-65ee-4955-b17c-4e085179f268")
+		(property "Reference" "R23"
+			(at 77.47 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 77.47 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 106.172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49b6e19d-4cba-416b-847c-dcc29f086d59")
+		)
+		(pin "1"
+			(uuid "91dc37df-4fd8-4238-9196-09ed46ab7e39")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2330,7 +3674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cefe2040-e32a-4bbc-93cb-e6ca3df862d8")
-		(property "Reference" "R8"
+		(property "Reference" "R19"
 			(at 73.66 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,6 +3734,12 @@
 			(uuid "2a9e8cf7-6316-441b-8af0-805589961bc3")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "R8")
@@ -2410,7 +3760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d07e1e-2104-4018-ab92-112665d9f9fa")
-		(property "Reference" "Q1"
+		(property "Reference" "Q20"
 			(at 60.2107 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2470,6 +3820,12 @@
 			(uuid "a3ba5a49-e872-431d-86f4-d9248d8a2cf8")
 		)
 		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "Q20")
+					(unit 1)
+				)
+			)
 			(project "redstone-torch"
 				(path "/5d24c42e-ea6a-418f-a288-e53a0e2e8e34"
 					(reference "Q1")
@@ -2478,10 +3834,86 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 115.57 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e064f140-6ff6-43f7-9e42-fa14fad6098d")
+		(property "Reference" "R22"
+			(at 64.77 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15k"
+			(at 64.77 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.532 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a9531089-94e5-4554-9110-ca5cfdf9f5cc")
+		)
+		(pin "1"
+			(uuid "e1d8aa66-5cba-428d-a435-a1108fa9fa29")
+		)
+		(instances
+			(project "Redstone"
+				(path "/4ede4ebb-9078-469f-877c-2d0f529b04d8/ca20996b-befc-4055-befe-290a4537eeea"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(embedded_fonts no)
 )
