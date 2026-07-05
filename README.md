@@ -31,31 +31,59 @@ Each type of modular component consisted in this project can vary in quantity, d
 These components are designed to be a fundational piece of logical expression that can be used to create and program logical circuits.
 
 ## Signal Transfer Between Blocks
-*Unlike Minecraft, the signal in this project are merely binary signals, varying only between 0 and 1 instead of 1 to 15.*
+*Unlike Minecraft, the signal in this project are merely binary signals, varying only between 0 and 1 instead of 1 to 15.*  
 Binary signals are transfered between components *("blocks")* via **light**.
 At one side of each component *except redstone dust*, a laser emitter is placed inside the component. It sends light out of the component.
 At the opposite side of the each component, a light sensor is also placed inside the component, which detects the light emitted by the lazer emitter of other components, and forward the information (0 or 1) contained in that light into the component.
 The redstone dust, however, is a special component that is designed to forward the light signal, or change the direction of the light. It is used to connect components.+
 
 ## Redstone Dust
-*The most versatile component in the specification.*
-There are 4 variation of this component.
+*There's no algorithm automaticly changing the dust type in real life, you have to do it yourself.*  
+The redstone dust acts like wires, who connects other components together.
+It is the most versatile component in the specification. There are 6 variation of this component, including:
+- straight (3 variations)
+  - one in one out
+  - both in
+  - both out
+- corner
+- T junction
+- cross junction
+
+Inside a redstone dust block the light signal is transfered via fibre optic cables. They also glows, making the redstone dust also glow.
 
 ## Redstone Repeater
+*This is not how actually repeaters in minecraft behaves...*  
+A redstone repeater acts like a transistor.
+It has 2 input side and 1 output side:
+- Input: Source
+  The power input of the repeater
+- Input: Gate
+  Control the on/off state of the repeater. If Gate is low then the repeater will be disabled: the Drain is set to be low in this case
+- Output: Drain
+  The power output of the repeater
+
+*Since in this case we don't need to worry about voltage like MOSFET, this "transistor" is basically an AND gate.*
+
 ## Redstone Block
+*A redstone block is made out of 9 redstone dust, and the redstone dust is made out of fiber optics, ~~so fiber optics magically generate power.~~*  
+A redstone block provides a constant signal of 1 (High).
+It can be used as a constant, or a quick testing parameter of a circuit.
+
+*Why does this thing even exist? It just burning battery constantly.*
+
 ## Redstone Button
+*Or a pressure plate? They have no difference.*  
+A redstone button outputs signal of 1 (High) when pressed.
+It can be used for a user interface.
+
 ## Redstone Torch
+*I wonder why power can turn a torch off. Maybe the torch is hiding a NOT gate inside of it? You never know~*  
+A redstone torch outputs a constant signal of 1 (High) when nothing is powering it.
+But if it received a signal of 1, it will be turned "off" and output a signal of 0.
+
+*I wonder if you can use this as a NOT gate?*
+
 ## Redstone Lamp
-
-
-
-
-
-
-
-
-
-
-DevNote:
-Name Idea:
-- Logical Redstone (Proposed by Jerry)
+*It's so funny that a lamp exists while the redstone itself already glows.*  
+A redstone lamp glows when it receives a signal of 1 (High).
+It can be used to make user interface, or even display graphics when stacked in array.
