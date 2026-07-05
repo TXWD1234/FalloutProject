@@ -301,6 +301,275 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Optical:KPS-3227"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KPS-3227"
+				(at 7.62 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "OptoDevice:Kingbright_KPS-3227"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ambient light NPN phototransistor, KPS-3227"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Kingbright npn phototransistor ambient light photo sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Kingbright*KPS?3227*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KPS-3227_1_1"
+				(polyline
+					(pts
+						(xy -6.35 3.175) (xy -4.445 1.27) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 4.445) (xy -3.81 2.54) (xy -3.81 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1511,6 +1780,12 @@
 		(uuid "3e5c2af2-c03f-4cae-9b2b-cdf6f9d7479b")
 	)
 	(junction
+		(at 64.77 -228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eb458f3-a116-4e03-8b4e-2043e8dad6d6")
+	)
+	(junction
 		(at 189.23 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1529,10 +1804,28 @@
 		(uuid "8d6f3153-b249-4178-8037-ad4db82be7e1")
 	)
 	(junction
+		(at 43.18 -205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94163847-fe46-4715-b365-174dfc167863")
+	)
+	(junction
 		(at 76.2 -71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d023981-c70d-439d-aaf9-2be8ced2ef2d")
+	)
+	(junction
+		(at 43.18 -228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd4c4d77-f0cb-4559-ad2e-485482384c7a")
+	)
+	(junction
+		(at 43.18 -215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd73d0d3-35cc-46eb-9412-fc3303d065f5")
 	)
 	(junction
 		(at 204.47 275.59)
@@ -1579,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "0055ead7-4e6c-4d03-b520-48186a8ae85c")
+	)
+	(wire
+		(pts
+			(xy 64.77 -210.82) (xy 64.77 -205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b23512-6645-4f0d-8ff7-b9907dc7062a")
 	)
 	(wire
 		(pts
@@ -1902,6 +2205,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 -228.6) (xy 64.77 -228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5769345f-069f-41c9-a4e8-713e51dfd118")
+	)
+	(wire
+		(pts
 			(xy 160.02 285.75) (xy 160.02 289.56)
 		)
 		(stroke
@@ -1949,6 +2262,16 @@
 			(type default)
 		)
 		(uuid "66c5e36f-85b8-4a8b-ae4d-9dfe77a687a5")
+	)
+	(wire
+		(pts
+			(xy 43.18 -228.6) (xy 43.18 -224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8a594c-840f-4d40-be63-dccbf7709ed8")
 	)
 	(wire
 		(pts
@@ -2082,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 -228.6) (xy 64.77 -220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23ec5b7-2abf-46d6-8945-cf81a84879f4")
+	)
+	(wire
+		(pts
 			(xy 274.32 233.68) (xy 274.32 247.65)
 		)
 		(stroke
@@ -2089,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "a4da494b-3a0f-4f57-b384-0e874f9b95ac")
+	)
+	(wire
+		(pts
+			(xy 43.18 -215.9) (xy 57.15 -215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54f9664-e98a-4aa8-83f9-fa11d29fc75d")
 	)
 	(wire
 		(pts
@@ -2119,6 +2462,16 @@
 			(type default)
 		)
 		(uuid "b1998b37-8a46-44b3-adc6-5812bea84cb7")
+	)
+	(wire
+		(pts
+			(xy 43.18 -217.17) (xy 43.18 -215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4479e66-d2bc-44c6-b661-0c44f285e6af")
 	)
 	(wire
 		(pts
@@ -2239,6 +2592,16 @@
 			(type default)
 		)
 		(uuid "c910a2eb-d3b0-4673-a5cf-b81f89fb7d6e")
+	)
+	(wire
+		(pts
+			(xy 43.18 -205.74) (xy 64.77 -205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1e29e7-74e2-4195-95a8-4c86951b4f3a")
 	)
 	(wire
 		(pts
@@ -2429,6 +2792,16 @@
 			(type default)
 		)
 		(uuid "fc456e59-5f0c-4db9-8ddb-d7a7ac6ff548")
+	)
+	(wire
+		(pts
+			(xy 43.18 -228.6) (xy 54.61 -228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0937ad-0ee9-49e1-b75d-19ca3dedbe8a")
 	)
 	(wire
 		(pts
@@ -3254,6 +3627,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 -205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15859d66-dcdf-4574-83d8-6e0f98a614f5")
+		(property "Reference" "#PWR012"
+			(at 43.18 -199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 -200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 -205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 -205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 -205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd32c1d6-e682-4c01-b5c4-7d11e4872c18")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "component-symbols:redstone-repeater")
 		(at 250.19 256.54 180)
 		(unit 1)
@@ -3655,6 +4106,84 @@
 			(project "FalloutProject"
 				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 -228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28b8d908-e176-459d-8f46-913a7bf95be7")
+		(property "Reference" "#PWR011"
+			(at 43.18 -224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 -233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89b61469-f2ad-4703-b579-46fa58d38c3c")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4879,6 +5408,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 62.23 -215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f2656a-2d05-432d-8155-a13d1ea10be4")
+		(property "Reference" "Q5"
+			(at 67.31 -217.1701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 67.31 -214.6301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 67.31 -213.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 62.23 -215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 62.23 -215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 62.23 -215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 62.23 -215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c0c2345a-c6c3-492d-ac37-7c6e280a8038")
+		)
+		(pin "2"
+			(uuid "4e5dbae0-250a-4b86-b06a-c3315f42d431")
+		)
+		(pin "1"
+			(uuid "ca6e381e-39ef-43c6-92f2-b348db33996b")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 74.93 -50.8 90)
 		(unit 1)
@@ -5849,6 +6488,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Optical:KPS-3227")
+		(at 43.18 -210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "990c7ff7-7663-4500-9be5-e2c1e492a812")
+		(property "Reference" "Q6"
+			(at 45.72 -212.8394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KPS-3227"
+			(at 45.72 -210.2994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OptoDevice:Kingbright_KPS-3227"
+			(at 43.18 -214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf"
+			(at 43.18 -214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ambient light NPN phototransistor, KPS-3227"
+			(at 43.18 -210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97984ea9-4125-4ddf-b3db-6e2f47710ba3")
+		)
+		(pin "3"
+			(uuid "33da97d6-7be4-4832-a81a-b3282d6051be")
+		)
+		(pin "4"
+			(uuid "ccdd04aa-b60b-4a75-9110-3d4fb966284f")
+		)
+		(pin "1"
+			(uuid "30e4b92b-63db-4af9-bb3c-6b29f48ba975")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 -228.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b1d8a0c-330c-44dd-9266-26eb538ecaf9")
+		(property "Reference" "R10"
+			(at 58.42 -234.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 58.42 -232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 -230.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aca6f8bf-2f1c-4d87-a87f-c6de245da168")
+		)
+		(pin "1"
+			(uuid "97f2b0bf-a09b-42da-bf6b-b3a11ac36568")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "component-symbols:redstone-torch")
 		(at 96.52 234.95 0)
 		(unit 1)
@@ -6198,6 +7005,86 @@
 			(project "FalloutProject"
 				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
 					(reference "LR39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Lamp")
+		(at 69.85 -228.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a99ed766-66e7-45bc-9746-b2233ad157a0")
+		(property "Reference" "LA2"
+			(at 69.85 -234.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lamp"
+			(at 69.85 -232.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 -228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 -228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Lamp"
+			(at 69.85 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ad340e3-0430-464a-ae4f-eb77ca7e46b7")
+		)
+		(pin "1"
+			(uuid "445164c3-d1a7-4f9c-90e5-a421d819ab1e")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "LA2")
 					(unit 1)
 				)
 			)
@@ -7828,6 +8715,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 43.18 -220.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12a5593-b2d0-4a5e-a8e5-dff7f2ef2b9d")
+		(property "Reference" "R6"
+			(at 45.72 -222.2501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 45.72 -219.7101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.958 -220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 -220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 -220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a91b896-3dce-41e4-9861-f5ba9bc7f69d")
+		)
+		(pin "1"
+			(uuid "eeb4e08d-a186-4b4e-8a0d-dec3cc2d1820")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "component-symbols:redstone-repeater")
 		(at 204.47 236.22 0)
 		(unit 1)
@@ -8308,6 +9277,84 @@
 			(project "FalloutProject"
 				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
 					(reference "LR20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 -228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f553d4c2-89b4-4139-a28f-4dc971a93ff2")
+		(property "Reference" "#PWR013"
+			(at 74.93 -222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 -222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 -228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4159917-35fd-48c5-b80d-9e6ded522dcf")
+		)
+		(instances
+			(project "FalloutProject"
+				(path "/fce9cfbe-7198-4efe-a406-4e88c1bb4a3a"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
