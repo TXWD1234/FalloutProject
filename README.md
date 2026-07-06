@@ -5,7 +5,7 @@ LogicalRedstone is a modular standard of components that can be assembled dynami
 
 *This project is made for the hackathon event [Fallout](https://fallout.hackclub.com) hosted by [Hackclub](https://www.hackclub.com).*
 
-![ZinePage](https://github.com/TXWD1234/FalloutProject/raw/main/docs/zine-page/ZinePage.png)
+![ZinePage](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/zine-page/ZinePage.png)
 
 # Project Usage
 *See detailed usage documentation of each component below in `Project Documentation/Components`.*
@@ -36,6 +36,8 @@ The base contains the circuits, and the cap has the minecraft appearance.
 There are 2 variation of the base, and are universal for all components. The 2 variations are:
 - Male (With 2 extruding bodies on each side)
 - Female (With 2 intruding gaps on eahc side)
+*The universal base models are located in `/components/general/CAD/`.*
+
 For each component there is one cap model. They all have a universal connection part with the base, and unique top appearance matching their Minecraft characteristics.
 
 ### Circuit
@@ -85,7 +87,7 @@ And that, concludes this logic gate adventure. Even it's not yet a full calculat
 
 The demo is a half adder circuit made with LogicalRedstone components. It consists the implementation of XOR gate, combining with an AND gate, result the capability to perform the addition operation of 2 1-bit integer.
 
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/symbols.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-circuit/half-adder.png)
 
 # Credits
 **Contributers:**
@@ -122,7 +124,7 @@ A symbol library in KiCad is provided along with the specification. It's purpose
 The symbol library includes all components in the specification expect redstone dust, as they are just wires.
 The appearance and registered name are showed below:
 
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/component-circuit/symbols.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/component-circuit/symbols.png)
 
 Library file path: */library/component-symbols.kicad_sym*
 
@@ -181,7 +183,7 @@ It can be used to make user interface, or even display graphics when stacked in 
 
 # Gallery
 ***Logic gates made with redstone components:***
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/logic-gates.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-circuit/logic-gates.png)
 
 ***Minecraft block diagram for the half adder:***
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-diagram/demo-diagram.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-diagram/demo-diagram.png)

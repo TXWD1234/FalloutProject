@@ -14,10 +14,10 @@ The half adder have 2 input pins and 2 output pins:
   - this is an AND gate
 
 **Circuit Picture:**
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/half-adder.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-circuit/half-adder.png)
 
 **Block Diagram:**
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/symbols.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-circuit/symbols.png)
 
 ## Full Adder
 The full adder combines and chains half adders to calculate bigger values.
@@ -28,4 +28,4 @@ In addition, for every digit after the first digit (the most insignificant digit
 The `CARRY` of every digit after the first digit is calculated by combining the `CARRY` of the 2 half adder in that digit. Since at most only one of them is possible to have `CARRY`, another half adder is not required.
 
 **Circuit Picture:**
-![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/full-adder.png)
+![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-circuit/full-adder.png)
