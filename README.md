@@ -7,10 +7,76 @@ LogicalRedstone is a modular standard of components that can be assembled dynami
 
 ![ZinePage](https://github.com/TXWD1234/FalloutProject/raw/main/docs/zine-page/ZinePage.png)
 
+# Project Usage
+*See detailed usage documentation of each component in `/components/<component-name>/README.md`.*
+*You can also see brief explaination below in `Project Documentation/Components`*
+
+## What it does
+LogicalRedstone provides the user a collection of modular components (so called "redstone"). These components can be combined to create logic gates, and even further: logical circuits.
+
+## How to use it
+Move around the components, connect them, create circuits, express your imagination and talent.
+The user has total freedom over the components. The components can be assembled in any form, and is theoretically possible to create any logical circuit.
+
+There are intruded gaps, or extruded bodies on each side of each component. One component either has all their sides have intruded gaps to accept the extruded bodies from other component, or extruded bodies to be accepted by other component.
+The components can be connected by creating an occlusion between the intruded gaps and the extruded bodies.
+
+## How to build it
+*See detail specification of each component in `/components/<component-name>/specification.md`*
+There are 2 portion of manufacturing the LogicalRedstone.
+- Print the 3D shell
+- Solder the circuit inside
+
+### 3D Shell
+
+
+### Circuit
+The circuits are soldered on cutted perf-board, attached with a coin battery and several photo transistors and lazer emitter.
+The circuit schematics of each component is provided in `/components/<component-name>/<component-name>.kicad_sch` if applicable. *(Some components don't contain a circuit. Please build according to the `specification.md`).*
+
+### Assembly
+After the shell and the circuit is completed, the assembly can be done according to the following procedure:
+1. Place the circuit in the base part of the shell
+2. Fasten the circuit in the base to prevent movement
+   - Make sure that the photo transistors and lasers are aligned with the hole
+3. Place the top part of the shell on the base
+   - Brute force may be applied to push the top part into the base.
+
+# Project Story (Why it exists)
+
+## Build It All From Scratch - Jerry's Story
+### My Programming Obsession
+From the first day I started programming, I found myself constantly pursuing a direction involuntarily.
+And that direction is **low level**.
+Where I first started was already pretty low: C++ is almost everyone think the lowest.
+But I am not satisfied with that.
+Exploring more lower level things such as Windows API and OpenGL, while making my own library and creating data structures, considering architecture, building complex systems and engines... I am on the way toward the lowest level.
+
+### TXCompute - My Fallout 60hr Project
+My initial idea of TXCompute was exactly: "Make a calculator with logic gates.".
+Even at last I choosed to use microcontroler instead of logic gates, I was back to low level by learning how to use transistors and implementing a NOT gate with NPN transistors.
+It is that final unexpected portion of TXCompute gave me the ability to build this project.
+
+### The Badge Project
+On the first day of Fallout, when I was asked to make a PCB, just any cool PCB, I instantly have my idea: A half adder, made with logic gates, which are made with transistors.
+When I started making it, I pushed the logic gates implementation further from TXCompute. From one NOT gate, to a whole set of AND, OR, NOR, NAND and XOR.
+
+### The Read Project
+When my two team mates explained their project idea of *"Make Minecraft redstone and make logic gates with them."*, I was immediately interested.
+That means my knowledge of transistors and logic gates can be expressed and utilized, and I might be able to complete the calculater that I was trying to make, at the very beginning.
+I soons started analyzing how Minecraft redstone works, and simplified them into 2 basic gates: AND (Redstone Repeater) and NOT (Redstone Torch).
+With those 2 basic gates, I started to implement those more advanced gates: NAND, NOR, OR, XOR, XNOR...
+And finally, I recreated half adder in the Badge Project.
+But I am not satisfied with that.
+I proceeded to making the MUX and DEMUX gate, and then by combining half adders, I made a 8-bit full adder.
+And that, concludes this logic gate adventure. Even it's not yet a full calculator, I achieved the concept, of **making things with logic gates.**
+
 # Demo
+*See detailed documentation in `/demo/README.md`.*
 
+The demo is a half adder circuit made with LogicalRedstone components. It consists the implementation of XOR gate, combining with an AND gate, result the capability to perform the addition operation of 2 1-bit integer.
 
-
+![picture](https://github.com/TXWD1234/LogicalRedstone/docs/readme-assets/demo-circuit/symbols.png)
 
 # Credits
 **Contributers:**
