@@ -8,8 +8,7 @@ LogicalRedstone is a modular standard of components that can be assembled dynami
 ![ZinePage](https://github.com/TXWD1234/FalloutProject/raw/main/docs/zine-page/ZinePage.png)
 
 # Project Usage
-*See detailed usage documentation of each component in `/components/<component-name>/README.md`.*
-*You can also see brief explaination below in `Project Documentation/Components`*
+*See detailed usage documentation of each component below in `Project Documentation/Components`.*
 
 ## What it does
 LogicalRedstone provides the user a collection of modular components (so called "redstone"). These components can be combined to create logic gates, and even further: logical circuits.
@@ -22,17 +21,27 @@ There are intruded gaps, or extruded bodies on each side of each component. One 
 The components can be connected by creating an occlusion between the intruded gaps and the extruded bodies.
 
 ## How to build it
-*See detail specification of each component in `/components/<component-name>/specification.md`*
 There are 2 portion of manufacturing the LogicalRedstone.
 - Print the 3D shell
 - Solder the circuit inside
 
 ### 3D Shell
+*The exported 3d stl files can be found for each component here: `/components/<component-name>/CAD/`.*
+*The onshape link of everything is: `<onshape-link>`.*
+
 The 3d shell is deisgned via onshape for the user to download and print on a FDM or similar addative manufacturing service. Our reccomended method would be to use FDM 3d printing. Upload the desired file into a slicer service ensuring no additional supports need to be generated. Print with less than 15% infill and a rectilinear profile. If using clear or unique material besides PLA ensure to adjust parameters accordingly. If your printer's tolerance is poor adjust for the difference using the stl files. 
+
+There are 2 parts to the 3D shell: Base and Cap.
+The base contains the circuits, and the cap has the minecraft appearance.
+There are 2 variation of the base, and are universal for all components. The 2 variations are:
+- Male (With 2 extruding bodies on each side)
+- Female (With 2 intruding gaps on eahc side)
+For each component there is one cap model. They all have a universal connection part with the base, and unique top appearance matching their Minecraft characteristics.
 
 ### Circuit
 The circuits are soldered on cutted perf-board, attached with a coin battery and several photo transistors and lazer emitter.
-The circuit schematics of each component is provided in `/components/<component-name>/<component-name>.kicad_sch` if applicable. *(Some components don't contain a circuit. Please build according to the `specification.md`).*
+The circuit schematics of each component is provided in `/components/<component-name>/<component-name>.kicad_sch` if applicable.
+*There's a special case: RedstoneDust-StraightLine variation don't have a circuit, because it's just a hollow box letting the light go through it.*
 
 ### Assembly
 After the shell and the circuit is completed, the assembly can be done according to the following procedure:
@@ -44,7 +53,7 @@ After the shell and the circuit is completed, the assembly can be done according
 
 # Project Story (Why it exists)
 
-## Build It All From Scratch - Jerry's Story
+## Build It All From Scratch - TX_Jerry's Story
 ### My Programming Obsession
 From the first day I started programming, I found myself constantly pursuing a direction involuntarily.
 And that direction is **low level**.
@@ -61,7 +70,7 @@ It is that final unexpected portion of TXCompute gave me the ability to build th
 On the first day of Fallout, when I was asked to make a PCB, just any cool PCB, I instantly have my idea: A half adder, made with logic gates, which are made with transistors.
 When I started making it, I pushed the logic gates implementation further from TXCompute. From one NOT gate, to a whole set of AND, OR, NOR, NAND and XOR.
 
-### The Read Project
+### The Real Project
 When my two team mates explained their project idea of *"Make Minecraft redstone and make logic gates with them."*, I was immediately interested.
 That means my knowledge of transistors and logic gates can be expressed and utilized, and I might be able to complete the calculater that I was trying to make, at the very beginning.
 I soons started analyzing how Minecraft redstone works, and simplified them into 2 basic gates: AND (Redstone Repeater) and NOT (Redstone Torch).
