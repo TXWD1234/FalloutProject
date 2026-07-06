@@ -183,7 +183,9 @@ It can be used to make user interface, or even display graphics when stacked in 
 
 # Gallery
 ***Logic gates made with redstone components:***
+
 ![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-circuit/logic-gates.png)
 
 ***Minecraft block diagram for the half adder:***
+
 ![picture](https://github.com/TXWD1234/LogicalRedstone/raw/main/docs/readme-assets/demo-diagram/demo-diagram.png)
